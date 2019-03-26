@@ -1,1 +1,5 @@
 (ignored_subdirs (node_modules))
+
+(env
+ (release
+  (flags :standard -w -a -noassert -ccopt -static)))
